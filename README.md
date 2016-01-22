@@ -2,8 +2,8 @@
 
 Install required packages and libraries:
 
-   npm install
-   bower install
+    npm install
+    bower install
 
 Start client:
 
@@ -11,4 +11,4 @@ Start client:
 
 Start server (API):
 
-   npm start
+    npm start
