@@ -1,0 +1,29 @@
+{
+  "name": "react-selectize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js --watch server --watch server.js server.js"
+  },
+  "private": true,
+  "engines": {
+    "node": "4.2.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "csv": "^0.4.6",
+    "csvtojson": "^0.4.7",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "nodemon": "^1.8.1"
+  }
+}
